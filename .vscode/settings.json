@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "nullnet.h": "c",
+        "contiki.h": "c",
+        "netstack.h": "c",
+        "tsch.h": "c",
+        "routing.h": "c",
+        "uip-debug.h": "c",
+        "node-id.h": "c",
+        "system_error": "c",
+        "simple-udp.h": "c",
+        "uip-sr.h": "c",
+        "uip-ds6-route.h": "c",
+        "uip.h": "c",
+        "uipopt.h": "c",
+        "uipbuf.h": "c",
+        "linkaddr.h": "c",
+        "nbr-table.h": "c"
+    }
+}
