@@ -19,27 +19,10 @@
 #define SEND_INTERVAL (10 * CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
-static uint32_t rx_custom_counter = 0;
 
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client");
 AUTOSTART_PROCESSES(&udp_client_process);
-/*---------------------------------------------------------------------------*/
-static void
-udp_rx_callback(struct simple_udp_connection *c,
-                const uip_ipaddr_t *sender_addr,
-                uint16_t sender_port,
-                const uip_ipaddr_t *receiver_addr,
-                uint16_t receiver_port,
-                const uint8_t *data,
-                uint16_t datalen)
-{
-
-  LOG_INFO("Received response '%.*s' from ", datalen, (char *)data);
-  LOG_INFO_6ADDR(sender_addr);
-  LOG_INFO_("\n");
-  rx_custom_counter++;
-}
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
@@ -53,8 +36,9 @@ PROCESS_THREAD(udp_client_process, ev, data)
 
   /* Initialize UDP connection */
   simple_udp_register(&udp_conn, UDP_CLIENT_PORT, NULL,
-                      UDP_SERVER_PORT, udp_rx_callback);
-  //init tsch
+                      UDP_SERVER_PORT, NULL);
+
+  /* Initialize TSCH */
   NETSTACK_MAC.on();
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
@@ -69,15 +53,16 @@ PROCESS_THREAD(udp_client_process, ev, data)
       /* Print statistics every 10th TX */
       if (tx_count % 10 == 0)
       {
-        LOG_INFO("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
-                 tx_count, rx_custom_counter, missed_tx_count);
+        LOG_INFO("mensagens transmitidas: %" PRIu32 "\n", tx_count);
+        LOG_INFO("mensagens perdidas: %" PRIu32 "\n", missed_tx_count);
       }
 
       /* Send to DAG root */
-      LOG_INFO("Sending request %" PRIu32 " to ", tx_count);
+      LOG_INFO("mandando mensagem %" PRIu32 " para o destino ", tx_count);
       LOG_INFO_6ADDR(&dest_ipaddr);
       LOG_INFO_("\n");
-      snprintf(str, sizeof(str), "hello %" PRIu32 "", tx_count);
+
+      snprintf(str, sizeof(str), "ola %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
     }
@@ -90,8 +75,8 @@ PROCESS_THREAD(udp_client_process, ev, data)
       }
     }
 
-    /* Add some jitter */
-    etimer_set(&periodic_timer, SEND_INTERVAL - CLOCK_SECOND + (random_rand() % (2 * CLOCK_SECOND)));
+    /* Reset timer */
+    etimer_reset(&periodic_timer);
   }
 
   PROCESS_END();

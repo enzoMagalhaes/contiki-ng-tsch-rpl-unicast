@@ -12,7 +12,7 @@
 #define UDP_SERVER_PORT 5678
 
 static struct simple_udp_connection udp_conn;
-static uint32_t recieved_messages_counter = 0;
+static uint32_t total_messages_counter = 0;
 
 /*---------------------------------------------------------------------------*/
 #define MAX_SENDERS 50 // Maximum number of senders to track
@@ -29,53 +29,8 @@ struct SenderCounter sender_counters[MAX_SENDERS];
 
 // Function to increment the counter for a specific sender address
 int sender_index = 0;
-void increment_sender_counter(const uip_ipaddr_t *sender_addr)
+int increment_sender_counter(const uip_ipaddr_t *sender_addr)
 {
-
-  // // printf("sender addr: ");
-  // // LOG_INFO_6ADDR(sender_addr);
-  // // LOG_INFO_("\n");
-
-  // for (int i = 0; i < MAX_SENDERS; i++)
-  // {
-  //   // printf("iteration addr: ");
-  //   // LOG_INFO_6ADDR(&sender_counters[i].sender_addr);
-
-  //   // Compare sender address with the one stored in the array
-  //   if (uip_ipaddr_cmp(sender_addr, &sender_counters[i].sender_addr) == 1)
-  //   {
-  //     // printf("COMPARE SUCCESS");
-  //     // LOG_INFO_("\n");
-
-  //     // int test = memcmp(sender_addr, sender_addr, sizeof(uip_ip6addr_t)) == 0;
-  //     // printf("test %d", test);
-
-  //     // LOG_INFO_("\n");
-
-  //     // LOG_INFO_6ADDR(&sender_counters[i].sender_addr);
-
-  //     // LOG_INFO_("\n");
-
-  //     // LOG_INFO_6ADDR(sender_addr);
-  //     // LOG_INFO_("\n");
-
-  //     // LOG_INFO_6ADDR(&sender_counters[i].sender_addr);
-
-  //     // Address matches, increment the counter
-  //     sender_counters[i].counter++;
-  //     // Print all sender counters
-  //     printf("Sender Counters:\n");
-  //     for (int j = 0; j < MAX_SENDERS; j++)
-  //     {
-  //       printf("Counter for ");
-  //       LOG_INFO_6ADDR(&sender_counters[j].sender_addr);
-  //       printf(": %d\n", sender_counters[j].counter);
-  //     }
-  //     printf("sender index: %d", sender_index);
-  //     return;
-  //   }
-  // }
-
   for (int i = 0; i < MAX_SENDERS; i++)
   {
     // Compare sender address with the one stored in the array
@@ -83,7 +38,7 @@ void increment_sender_counter(const uip_ipaddr_t *sender_addr)
     {
       // Address matches, increment the counter and return
       sender_counters[i].counter++;
-      return;
+      return sender_counters[i].counter;
     }
   }
 
@@ -91,29 +46,14 @@ void increment_sender_counter(const uip_ipaddr_t *sender_addr)
   uip_ipaddr_copy(&sender_counters[sender_index].sender_addr, sender_addr);
   sender_counters[sender_index].counter = 1;
   sender_index++;
-  return;
-}
-
-int get_sender_counter(const uip_ipaddr_t *sender_addr)
-{
-  for (int i = 0; i < MAX_SENDERS; i++)
-  {
-    // Compare sender address with the one stored in the array
-    if (uip_ipaddr_cmp(sender_addr, &sender_counters[i].sender_addr) == 1)
-    {
-      // Address matches, return the counter
-      return sender_counters[i].counter;
-    }
-  }
-
-  // If the sender address is not found, return 0 (or any appropriate default value)
-  return 0;
+  return sender_counters[sender_index - 1].counter;
 }
 /*---------------------------------------------------------------------------*/
-
 PROCESS(udp_server_process, "UDP server");
 AUTOSTART_PROCESSES(&udp_server_process);
 /*---------------------------------------------------------------------------*/
+int sender_messages_counter;
+
 static void
 udp_rx_callback(struct simple_udp_connection *c,
                 const uip_ipaddr_t *sender_addr,
@@ -123,15 +63,14 @@ udp_rx_callback(struct simple_udp_connection *c,
                 const uint8_t *data,
                 uint16_t datalen)
 {
-  recieved_messages_counter++;
-  increment_sender_counter(sender_addr);
-  int sender_messages_counter = get_sender_counter(sender_addr);
+  total_messages_counter++;
+  sender_messages_counter = increment_sender_counter(sender_addr);
 
   LOG_INFO_("recebida mensagem: '%.*s' do endereco ", datalen, (char *)data);
   LOG_INFO_6ADDR(sender_addr);
   LOG_INFO_("\n");
   LOG_INFO_("mensagens recebidas desse transmissor: %d\n", sender_messages_counter);
-  LOG_INFO_("contagem total de mensagens recebidas: %u\n", recieved_messages_counter);
+  LOG_INFO_("contagem total de mensagens recebidas: %u\n", total_messages_counter);
 }
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_server_process, ev, data)
