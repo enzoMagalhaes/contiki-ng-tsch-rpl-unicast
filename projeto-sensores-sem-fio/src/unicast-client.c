@@ -21,10 +21,10 @@
 static struct simple_udp_connection udp_conn;
 
 /*---------------------------------------------------------------------------*/
-PROCESS(udp_client_process, "UDP client");
-AUTOSTART_PROCESSES(&udp_client_process);
+PROCESS(unicast_client_process, "UDP client");
+AUTOSTART_PROCESSES(&unicast_client_process);
 /*---------------------------------------------------------------------------*/
-PROCESS_THREAD(udp_client_process, ev, data)
+PROCESS_THREAD(unicast_client_process, ev, data)
 {
   static struct etimer periodic_timer;
   static char str[32];
@@ -58,7 +58,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
       }
 
       /* Send to DAG root */
-      LOG_INFO("mandando mensagem %" PRIu32 " para o destino ", tx_count);
+      LOG_INFO_("mandando mensagem %" PRIu32 " para o destino ", tx_count);
       LOG_INFO_6ADDR(&dest_ipaddr);
       LOG_INFO_("\n");
 
@@ -68,15 +68,15 @@ PROCESS_THREAD(udp_client_process, ev, data)
     }
     else
     {
-      LOG_INFO("Not reachable yet\n");
+      LOG_INFO("base ainda nao alcancavel\n");
       if (tx_count > 0)
       {
         missed_tx_count++;
       }
     }
 
-    /* Reset timer */
-    etimer_reset(&periodic_timer);
+    /* Add some jitter */
+    etimer_set(&periodic_timer, SEND_INTERVAL - CLOCK_SECOND + (random_rand() % (2 * CLOCK_SECOND)));
   }
 
   PROCESS_END();

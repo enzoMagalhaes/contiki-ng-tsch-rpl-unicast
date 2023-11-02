@@ -49,8 +49,8 @@ int increment_sender_counter(const uip_ipaddr_t *sender_addr)
   return sender_counters[sender_index - 1].counter;
 }
 /*---------------------------------------------------------------------------*/
-PROCESS(udp_server_process, "UDP server");
-AUTOSTART_PROCESSES(&udp_server_process);
+PROCESS(unicast_server_process, "UDP server");
+AUTOSTART_PROCESSES(&unicast_server_process);
 /*---------------------------------------------------------------------------*/
 int sender_messages_counter;
 
@@ -73,7 +73,7 @@ udp_rx_callback(struct simple_udp_connection *c,
   LOG_INFO_("contagem total de mensagens recebidas: %u\n", total_messages_counter);
 }
 /*---------------------------------------------------------------------------*/
-PROCESS_THREAD(udp_server_process, ev, data)
+PROCESS_THREAD(unicast_server_process, ev, data)
 {
   PROCESS_BEGIN();
 
