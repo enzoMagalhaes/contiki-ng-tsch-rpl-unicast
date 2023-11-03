@@ -49,14 +49,6 @@ PROCESS_THREAD(unicast_client_process, ev, data)
     if (NETSTACK_ROUTING.node_is_reachable() &&
         NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr))
     {
-
-      /* Print statistics every 10th TX */
-      if (tx_count % 10 == 0)
-      {
-        LOG_INFO("mensagens transmitidas: %" PRIu32 "\n", tx_count);
-        LOG_INFO("mensagens perdidas: %" PRIu32 "\n", missed_tx_count);
-      }
-
       /* Send to DAG root */
       LOG_INFO_("mandando mensagem %" PRIu32 " para o destino ", tx_count);
       LOG_INFO_6ADDR(&dest_ipaddr);
@@ -65,6 +57,9 @@ PROCESS_THREAD(unicast_client_process, ev, data)
       snprintf(str, sizeof(str), "ola %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
+
+      LOG_INFO("SENTCOUNT--%" PRIu32 "\n", tx_count);
+      LOG_INFO("LOSTCOUNT--%" PRIu32 "\n", missed_tx_count);
     }
     else
     {

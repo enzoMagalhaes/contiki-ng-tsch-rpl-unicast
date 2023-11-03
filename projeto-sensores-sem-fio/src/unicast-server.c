@@ -69,8 +69,13 @@ udp_rx_callback(struct simple_udp_connection *c,
   LOG_INFO_("recebida mensagem: '%.*s' do endereco ", datalen, (char *)data);
   LOG_INFO_6ADDR(sender_addr);
   LOG_INFO_("\n");
-  LOG_INFO_("mensagens recebidas desse transmissor: %d\n", sender_messages_counter);
-  LOG_INFO_("contagem total de mensagens recebidas: %u\n", total_messages_counter);
+
+  LOG_INFO_("NODECOUNT--");
+  LOG_INFO_6ADDR(sender_addr);
+  LOG_INFO_("--%d", sender_messages_counter);
+  LOG_INFO_("\n");
+
+  LOG_INFO_("TOTALCOUNT--%u\n", total_messages_counter);
 }
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(unicast_server_process, ev, data)
