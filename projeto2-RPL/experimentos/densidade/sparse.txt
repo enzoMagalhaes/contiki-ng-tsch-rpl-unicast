@@ -1,0 +1,928 @@
+00:00.062	ID:7	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.062	ID:7	[INFO: Main      ] - Routing: RPL Lite
+00:00.062	ID:7	[INFO: Main      ] - Net: sicslowpan
+00:00.062	ID:7	[INFO: Main      ] - MAC: TSCH
+00:00.062	ID:7	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.062	ID:7	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.062	ID:7	[INFO: Main      ] Node ID: 7
+00:00.062	ID:7	[INFO: Main      ] Link-layer address: 0007.0007.0007.0007
+00:00.062	ID:7	[INFO: Main      ] Tentative link-local IPv6 address: fe80::207:7:7:7
+00:00.104	ID:30	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.104	ID:30	[INFO: Main      ] - Routing: RPL Lite
+00:00.104	ID:30	[INFO: Main      ] - Net: sicslowpan
+00:00.104	ID:30	[INFO: Main      ] - MAC: TSCH
+00:00.104	ID:30	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.104	ID:30	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.104	ID:30	[INFO: Main      ] Node ID: 30
+00:00.104	ID:30	[INFO: Main      ] Link-layer address: 001e.001e.001e.001e
+00:00.104	ID:30	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21e:1e:1e:1e
+00:00.116	ID:16	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.116	ID:16	[INFO: Main      ] - Routing: RPL Lite
+00:00.116	ID:16	[INFO: Main      ] - Net: sicslowpan
+00:00.116	ID:16	[INFO: Main      ] - MAC: TSCH
+00:00.116	ID:16	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.116	ID:16	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.116	ID:16	[INFO: Main      ] Node ID: 16
+00:00.116	ID:16	[INFO: Main      ] Link-layer address: 0010.0010.0010.0010
+00:00.116	ID:16	[INFO: Main      ] Tentative link-local IPv6 address: fe80::210:10:10:10
+00:00.123	ID:37	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.123	ID:37	[INFO: Main      ] - Routing: RPL Lite
+00:00.123	ID:37	[INFO: Main      ] - Net: sicslowpan
+00:00.123	ID:37	[INFO: Main      ] - MAC: TSCH
+00:00.123	ID:37	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.123	ID:37	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.123	ID:37	[INFO: Main      ] Node ID: 37
+00:00.123	ID:37	[INFO: Main      ] Link-layer address: 0025.0025.0025.0025
+00:00.123	ID:37	[INFO: Main      ] Tentative link-local IPv6 address: fe80::225:25:25:25
+00:00.128	ID:20	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.128	ID:20	[INFO: Main      ] - Routing: RPL Lite
+00:00.128	ID:20	[INFO: Main      ] - Net: sicslowpan
+00:00.128	ID:20	[INFO: Main      ] - MAC: TSCH
+00:00.128	ID:20	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.128	ID:20	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.128	ID:20	[INFO: Main      ] Node ID: 20
+00:00.128	ID:20	[INFO: Main      ] Link-layer address: 0014.0014.0014.0014
+00:00.128	ID:20	[INFO: Main      ] Tentative link-local IPv6 address: fe80::214:14:14:14
+00:00.143	ID:26	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.143	ID:26	[INFO: Main      ] - Routing: RPL Lite
+00:00.143	ID:26	[INFO: Main      ] - Net: sicslowpan
+00:00.143	ID:26	[INFO: Main      ] - MAC: TSCH
+00:00.143	ID:26	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.143	ID:26	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.143	ID:26	[INFO: Main      ] Node ID: 26
+00:00.143	ID:26	[INFO: Main      ] Link-layer address: 001a.001a.001a.001a
+00:00.143	ID:26	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21a:1a:1a:1a
+00:00.144	ID:28	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.144	ID:28	[INFO: Main      ] - Routing: RPL Lite
+00:00.144	ID:28	[INFO: Main      ] - Net: sicslowpan
+00:00.144	ID:28	[INFO: Main      ] - MAC: TSCH
+00:00.144	ID:28	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.144	ID:28	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.144	ID:28	[INFO: Main      ] Node ID: 28
+00:00.144	ID:28	[INFO: Main      ] Link-layer address: 001c.001c.001c.001c
+00:00.144	ID:28	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21c:1c:1c:1c
+00:00.182	ID:17	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.182	ID:17	[INFO: Main      ] - Routing: RPL Lite
+00:00.182	ID:17	[INFO: Main      ] - Net: sicslowpan
+00:00.182	ID:17	[INFO: Main      ] - MAC: TSCH
+00:00.182	ID:17	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.182	ID:17	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.182	ID:17	[INFO: Main      ] Node ID: 17
+00:00.182	ID:17	[INFO: Main      ] Link-layer address: 0011.0011.0011.0011
+00:00.182	ID:17	[INFO: Main      ] Tentative link-local IPv6 address: fe80::211:11:11:11
+00:00.184	ID:25	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.184	ID:25	[INFO: Main      ] - Routing: RPL Lite
+00:00.184	ID:25	[INFO: Main      ] - Net: sicslowpan
+00:00.184	ID:25	[INFO: Main      ] - MAC: TSCH
+00:00.184	ID:25	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.184	ID:25	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.184	ID:25	[INFO: Main      ] Node ID: 25
+00:00.184	ID:25	[INFO: Main      ] Link-layer address: 0019.0019.0019.0019
+00:00.184	ID:25	[INFO: Main      ] Tentative link-local IPv6 address: fe80::219:19:19:19
+00:00.197	ID:11	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.197	ID:11	[INFO: Main      ] - Routing: RPL Lite
+00:00.197	ID:11	[INFO: Main      ] - Net: sicslowpan
+00:00.197	ID:11	[INFO: Main      ] - MAC: TSCH
+00:00.197	ID:11	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.197	ID:11	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.197	ID:11	[INFO: Main      ] Node ID: 11
+00:00.197	ID:11	[INFO: Main      ] Link-layer address: 000b.000b.000b.000b
+00:00.197	ID:11	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20b:b:b:b
+00:00.216	ID:10	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.216	ID:10	[INFO: Main      ] - Routing: RPL Lite
+00:00.216	ID:10	[INFO: Main      ] - Net: sicslowpan
+00:00.216	ID:10	[INFO: Main      ] - MAC: TSCH
+00:00.216	ID:10	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.216	ID:10	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.216	ID:10	[INFO: Main      ] Node ID: 10
+00:00.216	ID:10	[INFO: Main      ] Link-layer address: 000a.000a.000a.000a
+00:00.216	ID:10	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20a:a:a:a
+00:00.240	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:00.251	ID:3	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.251	ID:3	[INFO: Main      ] - Routing: RPL Lite
+00:00.251	ID:3	[INFO: Main      ] - Net: sicslowpan
+00:00.251	ID:3	[INFO: Main      ] - MAC: TSCH
+00:00.251	ID:3	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.251	ID:3	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.251	ID:3	[INFO: Main      ] Node ID: 3
+00:00.251	ID:3	[INFO: Main      ] Link-layer address: 0003.0003.0003.0003
+00:00.251	ID:3	[INFO: Main      ] Tentative link-local IPv6 address: fe80::203:3:3:3
+00:00.263	ID:32	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.263	ID:32	[INFO: Main      ] - Routing: RPL Lite
+00:00.263	ID:32	[INFO: Main      ] - Net: sicslowpan
+00:00.263	ID:32	[INFO: Main      ] - MAC: TSCH
+00:00.263	ID:32	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.263	ID:32	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.263	ID:32	[INFO: Main      ] Node ID: 32
+00:00.263	ID:32	[INFO: Main      ] Link-layer address: 0020.0020.0020.0020
+00:00.263	ID:32	[INFO: Main      ] Tentative link-local IPv6 address: fe80::220:20:20:20
+00:00.264	ID:8	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.264	ID:8	[INFO: Main      ] - Routing: RPL Lite
+00:00.264	ID:8	[INFO: Main      ] - Net: sicslowpan
+00:00.264	ID:8	[INFO: Main      ] - MAC: TSCH
+00:00.264	ID:8	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.264	ID:8	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.264	ID:8	[INFO: Main      ] Node ID: 8
+00:00.264	ID:8	[INFO: Main      ] Link-layer address: 0008.0008.0008.0008
+00:00.264	ID:8	[INFO: Main      ] Tentative link-local IPv6 address: fe80::208:8:8:8
+00:00.288	ID:31	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.288	ID:31	[INFO: Main      ] - Routing: RPL Lite
+00:00.288	ID:31	[INFO: Main      ] - Net: sicslowpan
+00:00.288	ID:31	[INFO: Main      ] - MAC: TSCH
+00:00.288	ID:31	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.288	ID:31	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.288	ID:31	[INFO: Main      ] Node ID: 31
+00:00.288	ID:31	[INFO: Main      ] Link-layer address: 001f.001f.001f.001f
+00:00.288	ID:31	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21f:1f:1f:1f
+00:00.305	ID:39	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.305	ID:39	[INFO: Main      ] - Routing: RPL Lite
+00:00.305	ID:39	[INFO: Main      ] - Net: sicslowpan
+00:00.305	ID:39	[INFO: Main      ] - MAC: TSCH
+00:00.305	ID:39	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.305	ID:39	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.305	ID:39	[INFO: Main      ] Node ID: 39
+00:00.305	ID:39	[INFO: Main      ] Link-layer address: 0027.0027.0027.0027
+00:00.305	ID:39	[INFO: Main      ] Tentative link-local IPv6 address: fe80::227:27:27:27
+00:00.311	ID:18	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.311	ID:18	[INFO: Main      ] - Routing: RPL Lite
+00:00.311	ID:18	[INFO: Main      ] - Net: sicslowpan
+00:00.311	ID:18	[INFO: Main      ] - MAC: TSCH
+00:00.311	ID:18	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.311	ID:18	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.311	ID:18	[INFO: Main      ] Node ID: 18
+00:00.311	ID:18	[INFO: Main      ] Link-layer address: 0012.0012.0012.0012
+00:00.311	ID:18	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:12:12:12
+00:00.382	ID:1	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.382	ID:1	[INFO: Main      ] - Routing: RPL Lite
+00:00.382	ID:1	[INFO: Main      ] - Net: sicslowpan
+00:00.382	ID:1	[INFO: Main      ] - MAC: TSCH
+00:00.382	ID:1	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.382	ID:1	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.382	ID:1	[INFO: Main      ] Node ID: 1
+00:00.382	ID:1	[INFO: Main      ] Link-layer address: 0001.0001.0001.0001
+00:00.382	ID:1	[INFO: Main      ] Tentative link-local IPv6 address: fe80::201:1:1:1
+00:00.456	ID:23	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.456	ID:23	[INFO: Main      ] - Routing: RPL Lite
+00:00.456	ID:23	[INFO: Main      ] - Net: sicslowpan
+00:00.456	ID:23	[INFO: Main      ] - MAC: TSCH
+00:00.456	ID:23	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.456	ID:23	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.456	ID:23	[INFO: Main      ] Node ID: 23
+00:00.456	ID:23	[INFO: Main      ] Link-layer address: 0017.0017.0017.0017
+00:00.456	ID:23	[INFO: Main      ] Tentative link-local IPv6 address: fe80::217:17:17:17
+00:00.501	ID:21	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.501	ID:21	[INFO: Main      ] - Routing: RPL Lite
+00:00.501	ID:21	[INFO: Main      ] - Net: sicslowpan
+00:00.501	ID:21	[INFO: Main      ] - MAC: TSCH
+00:00.501	ID:21	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.501	ID:21	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.501	ID:21	[INFO: Main      ] Node ID: 21
+00:00.501	ID:21	[INFO: Main      ] Link-layer address: 0015.0015.0015.0015
+00:00.501	ID:21	[INFO: Main      ] Tentative link-local IPv6 address: fe80::215:15:15:15
+00:00.560	ID:40	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.560	ID:40	[INFO: Main      ] - Routing: RPL Lite
+00:00.560	ID:40	[INFO: Main      ] - Net: sicslowpan
+00:00.560	ID:40	[INFO: Main      ] - MAC: TSCH
+00:00.560	ID:40	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.560	ID:40	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.560	ID:40	[INFO: Main      ] Node ID: 40
+00:00.560	ID:40	[INFO: Main      ] Link-layer address: 0028.0028.0028.0028
+00:00.560	ID:40	[INFO: Main      ] Tentative link-local IPv6 address: fe80::228:28:28:28
+00:00.591	ID:35	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.591	ID:35	[INFO: Main      ] - Routing: RPL Lite
+00:00.591	ID:35	[INFO: Main      ] - Net: sicslowpan
+00:00.591	ID:35	[INFO: Main      ] - MAC: TSCH
+00:00.591	ID:35	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.591	ID:35	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.591	ID:35	[INFO: Main      ] Node ID: 35
+00:00.591	ID:35	[INFO: Main      ] Link-layer address: 0023.0023.0023.0023
+00:00.591	ID:35	[INFO: Main      ] Tentative link-local IPv6 address: fe80::223:23:23:23
+00:00.610	ID:15	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.610	ID:15	[INFO: Main      ] - Routing: RPL Lite
+00:00.610	ID:15	[INFO: Main      ] - Net: sicslowpan
+00:00.610	ID:15	[INFO: Main      ] - MAC: TSCH
+00:00.610	ID:15	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.610	ID:15	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.610	ID:15	[INFO: Main      ] Node ID: 15
+00:00.610	ID:15	[INFO: Main      ] Link-layer address: 000f.000f.000f.000f
+00:00.610	ID:15	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20f:f:f:f
+00:00.633	ID:38	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.633	ID:38	[INFO: Main      ] - Routing: RPL Lite
+00:00.633	ID:38	[INFO: Main      ] - Net: sicslowpan
+00:00.633	ID:38	[INFO: Main      ] - MAC: TSCH
+00:00.633	ID:38	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.633	ID:38	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.633	ID:38	[INFO: Main      ] Node ID: 38
+00:00.633	ID:38	[INFO: Main      ] Link-layer address: 0026.0026.0026.0026
+00:00.633	ID:38	[INFO: Main      ] Tentative link-local IPv6 address: fe80::226:26:26:26
+00:00.641	ID:33	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.641	ID:33	[INFO: Main      ] - Routing: RPL Lite
+00:00.641	ID:33	[INFO: Main      ] - Net: sicslowpan
+00:00.641	ID:33	[INFO: Main      ] - MAC: TSCH
+00:00.641	ID:33	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.641	ID:33	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.641	ID:33	[INFO: Main      ] Node ID: 33
+00:00.641	ID:33	[INFO: Main      ] Link-layer address: 0021.0021.0021.0021
+00:00.641	ID:33	[INFO: Main      ] Tentative link-local IPv6 address: fe80::221:21:21:21
+00:00.710	ID:4	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.710	ID:4	[INFO: Main      ] - Routing: RPL Lite
+00:00.710	ID:4	[INFO: Main      ] - Net: sicslowpan
+00:00.710	ID:4	[INFO: Main      ] - MAC: TSCH
+00:00.710	ID:4	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.710	ID:4	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.710	ID:4	[INFO: Main      ] Node ID: 4
+00:00.710	ID:4	[INFO: Main      ] Link-layer address: 0004.0004.0004.0004
+00:00.710	ID:4	[INFO: Main      ] Tentative link-local IPv6 address: fe80::204:4:4:4
+00:00.728	ID:34	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.728	ID:34	[INFO: Main      ] - Routing: RPL Lite
+00:00.728	ID:34	[INFO: Main      ] - Net: sicslowpan
+00:00.728	ID:34	[INFO: Main      ] - MAC: TSCH
+00:00.728	ID:34	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.728	ID:34	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.728	ID:34	[INFO: Main      ] Node ID: 34
+00:00.728	ID:34	[INFO: Main      ] Link-layer address: 0022.0022.0022.0022
+00:00.728	ID:34	[INFO: Main      ] Tentative link-local IPv6 address: fe80::222:22:22:22
+00:00.733	ID:27	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.733	ID:27	[INFO: Main      ] - Routing: RPL Lite
+00:00.733	ID:27	[INFO: Main      ] - Net: sicslowpan
+00:00.733	ID:27	[INFO: Main      ] - MAC: TSCH
+00:00.733	ID:27	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.733	ID:27	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.733	ID:27	[INFO: Main      ] Node ID: 27
+00:00.733	ID:27	[INFO: Main      ] Link-layer address: 001b.001b.001b.001b
+00:00.733	ID:27	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21b:1b:1b:1b
+00:00.740	ID:26	[INFO: App       ] base ainda nao alcancavel
+00:00.740	ID:2	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.740	ID:2	[INFO: Main      ] - Routing: RPL Lite
+00:00.740	ID:2	[INFO: Main      ] - Net: sicslowpan
+00:00.740	ID:2	[INFO: Main      ] - MAC: TSCH
+00:00.740	ID:2	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.740	ID:2	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.740	ID:2	[INFO: Main      ] Node ID: 2
+00:00.740	ID:2	[INFO: Main      ] Link-layer address: 0002.0002.0002.0002
+00:00.740	ID:2	[INFO: Main      ] Tentative link-local IPv6 address: fe80::202:2:2:2
+00:00.767	ID:12	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.767	ID:12	[INFO: Main      ] - Routing: RPL Lite
+00:00.767	ID:12	[INFO: Main      ] - Net: sicslowpan
+00:00.767	ID:12	[INFO: Main      ] - MAC: TSCH
+00:00.767	ID:12	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.767	ID:12	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.767	ID:12	[INFO: Main      ] Node ID: 12
+00:00.767	ID:12	[INFO: Main      ] Link-layer address: 000c.000c.000c.000c
+00:00.767	ID:12	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20c:c:c:c
+00:00.779	ID:9	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.779	ID:9	[INFO: Main      ] - Routing: RPL Lite
+00:00.779	ID:9	[INFO: Main      ] - Net: sicslowpan
+00:00.779	ID:9	[INFO: Main      ] - MAC: TSCH
+00:00.779	ID:9	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.779	ID:9	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.779	ID:9	[INFO: Main      ] Node ID: 9
+00:00.779	ID:9	[INFO: Main      ] Link-layer address: 0009.0009.0009.0009
+00:00.779	ID:9	[INFO: Main      ] Tentative link-local IPv6 address: fe80::209:9:9:9
+00:00.789	ID:24	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.789	ID:24	[INFO: Main      ] - Routing: RPL Lite
+00:00.789	ID:24	[INFO: Main      ] - Net: sicslowpan
+00:00.789	ID:24	[INFO: Main      ] - MAC: TSCH
+00:00.789	ID:24	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.789	ID:24	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.789	ID:24	[INFO: Main      ] Node ID: 24
+00:00.789	ID:24	[INFO: Main      ] Link-layer address: 0018.0018.0018.0018
+00:00.789	ID:24	[INFO: Main      ] Tentative link-local IPv6 address: fe80::218:18:18:18
+00:00.806	ID:19	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.806	ID:19	[INFO: Main      ] - Routing: RPL Lite
+00:00.806	ID:19	[INFO: Main      ] - Net: sicslowpan
+00:00.806	ID:19	[INFO: Main      ] - MAC: TSCH
+00:00.806	ID:19	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.806	ID:19	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.806	ID:19	[INFO: Main      ] Node ID: 19
+00:00.806	ID:19	[INFO: Main      ] Link-layer address: 0013.0013.0013.0013
+00:00.806	ID:19	[INFO: Main      ] Tentative link-local IPv6 address: fe80::213:13:13:13
+00:00.830	ID:14	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.830	ID:14	[INFO: Main      ] - Routing: RPL Lite
+00:00.830	ID:14	[INFO: Main      ] - Net: sicslowpan
+00:00.830	ID:14	[INFO: Main      ] - MAC: TSCH
+00:00.830	ID:14	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.830	ID:14	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.830	ID:14	[INFO: Main      ] Node ID: 14
+00:00.830	ID:14	[INFO: Main      ] Link-layer address: 000e.000e.000e.000e
+00:00.830	ID:14	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20e:e:e:e
+00:00.843	ID:5	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.843	ID:5	[INFO: Main      ] - Routing: RPL Lite
+00:00.843	ID:5	[INFO: Main      ] - Net: sicslowpan
+00:00.843	ID:5	[INFO: Main      ] - MAC: TSCH
+00:00.843	ID:5	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.843	ID:5	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.843	ID:5	[INFO: Main      ] Node ID: 5
+00:00.843	ID:5	[INFO: Main      ] Link-layer address: 0005.0005.0005.0005
+00:00.843	ID:5	[INFO: Main      ] Tentative link-local IPv6 address: fe80::205:5:5:5
+00:00.874	ID:6	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.874	ID:6	[INFO: Main      ] - Routing: RPL Lite
+00:00.874	ID:6	[INFO: Main      ] - Net: sicslowpan
+00:00.874	ID:6	[INFO: Main      ] - MAC: TSCH
+00:00.874	ID:6	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.874	ID:6	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.874	ID:6	[INFO: Main      ] Node ID: 6
+00:00.874	ID:6	[INFO: Main      ] Link-layer address: 0006.0006.0006.0006
+00:00.874	ID:6	[INFO: Main      ] Tentative link-local IPv6 address: fe80::206:6:6:6
+00:00.878	ID:29	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.878	ID:29	[INFO: Main      ] - Routing: RPL Lite
+00:00.878	ID:29	[INFO: Main      ] - Net: sicslowpan
+00:00.878	ID:29	[INFO: Main      ] - MAC: TSCH
+00:00.878	ID:29	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.878	ID:29	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.878	ID:29	[INFO: Main      ] Node ID: 29
+00:00.878	ID:29	[INFO: Main      ] Link-layer address: 001d.001d.001d.001d
+00:00.878	ID:29	[INFO: Main      ] Tentative link-local IPv6 address: fe80::21d:1d:1d:1d
+00:00.920	ID:36	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.920	ID:36	[INFO: Main      ] - Routing: RPL Lite
+00:00.920	ID:36	[INFO: Main      ] - Net: sicslowpan
+00:00.920	ID:36	[INFO: Main      ] - MAC: TSCH
+00:00.920	ID:36	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.920	ID:36	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.920	ID:36	[INFO: Main      ] Node ID: 36
+00:00.920	ID:36	[INFO: Main      ] Link-layer address: 0024.0024.0024.0024
+00:00.920	ID:36	[INFO: Main      ] Tentative link-local IPv6 address: fe80::224:24:24:24
+00:00.965	ID:22	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.965	ID:22	[INFO: Main      ] - Routing: RPL Lite
+00:00.965	ID:22	[INFO: Main      ] - Net: sicslowpan
+00:00.965	ID:22	[INFO: Main      ] - MAC: TSCH
+00:00.965	ID:22	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.965	ID:22	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.965	ID:22	[INFO: Main      ] Node ID: 22
+00:00.965	ID:22	[INFO: Main      ] Link-layer address: 0016.0016.0016.0016
+00:00.965	ID:22	[INFO: Main      ] Tentative link-local IPv6 address: fe80::216:16:16:16
+00:00.984	ID:13	[INFO: Main      ] Starting Contiki-NG-8c9b5266
+00:00.984	ID:13	[INFO: Main      ] - Routing: RPL Lite
+00:00.984	ID:13	[INFO: Main      ] - Net: sicslowpan
+00:00.984	ID:13	[INFO: Main      ] - MAC: TSCH
+00:00.984	ID:13	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:00.984	ID:13	[INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 4
+00:00.984	ID:13	[INFO: Main      ] Node ID: 13
+00:00.984	ID:13	[INFO: Main      ] Link-layer address: 000d.000d.000d.000d
+00:00.984	ID:13	[INFO: Main      ] Tentative link-local IPv6 address: fe80::20d:d:d:d
+00:01.097	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:01.149	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:01.266	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:01.403	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:01.593	ID:14	[INFO: App       ] base ainda nao alcancavel
+00:01.765	ID:29	[INFO: App       ] base ainda nao alcancavel
+00:01.779	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:01.803	ID:6	[INFO: App       ] base ainda nao alcancavel
+00:01.861	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:01.895	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:02.010	ID:28	[INFO: App       ] base ainda nao alcancavel
+00:02.250	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:02.302	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:02.746	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:03.320	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:03.515	ID:3	[INFO: App       ] base ainda nao alcancavel
+00:03.528	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:03.600	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:03.758	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:04.218	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:04.411	ID:35	[INFO: App       ] base ainda nao alcancavel
+00:04.538	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:04.635	ID:5	[INFO: App       ] base ainda nao alcancavel
+00:04.736	ID:19	[INFO: App       ] base ainda nao alcancavel
+00:04.944	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:05.135	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:05.366	ID:24	[INFO: App       ] base ainda nao alcancavel
+00:05.402	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:05.504	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:06.350	ID:9	[INFO: App       ] base ainda nao alcancavel
+00:08.492	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:08.709	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:08.771	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:08.874	ID:22	[INFO: App       ] base ainda nao alcancavel
+00:09.282	ID:39	[INFO: App       ] base ainda nao alcancavel
+00:09.408	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:10.177	ID:38	[INFO: App       ] base ainda nao alcancavel
+00:10.306	ID:33	[INFO: App       ] base ainda nao alcancavel
+00:10.369	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:10.594	ID:14	[INFO: App       ] base ainda nao alcancavel
+00:10.714	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:10.789	ID:29	[INFO: App       ] base ainda nao alcancavel
+00:11.313	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:11.459	ID:28	[INFO: App       ] base ainda nao alcancavel
+00:11.491	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:11.491	ID:26	[INFO: App       ] base ainda nao alcancavel
+00:11.652	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:11.703	ID:6	[INFO: App       ] base ainda nao alcancavel
+00:11.721	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:11.799	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:11.881	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:12.134	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:12.237	ID:5	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:12.237	ID:19	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:12.237	ID:26	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:13.271	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:13.367	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:13.504	ID:3	[INFO: App       ] base ainda nao alcancavel
+00:13.730	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:13.870	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:14.077	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:14.419	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:14.549	ID:24	[INFO: App       ] base ainda nao alcancavel
+00:14.750	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:15.168	ID:19	[INFO: App       ] base ainda nao alcancavel
+00:15.170	ID:5	[INFO: App       ] base ainda nao alcancavel
+00:15.225	ID:35	[INFO: App       ] base ainda nao alcancavel
+00:15.304	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:15.718	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:15.920	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:16.318	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:17.045	ID:9	[INFO: App       ] base ainda nao alcancavel
+00:17.386	ID:10	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:17.386	ID:10	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:17.585	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:18.090	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:18.526	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:18.718	ID:5	[WARN: RPL       ] found parent: fe80::201:1:1:1, staying in DAG
+00:19.039	ID:8	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:19.039	ID:8	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:19.184	ID:39	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:19.184	ID:39	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:19.349	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:19.426	ID:22	[INFO: App       ] base ainda nao alcancavel
+00:19.664	ID:33	[INFO: App       ] base ainda nao alcancavel
+00:19.780	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:19.797	ID:14	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:19.885	ID:39	[INFO: App       ] base ainda nao alcancavel
+00:19.983	ID:14	[INFO: App       ] base ainda nao alcancavel
+00:20.072	ID:29	[INFO: App       ] base ainda nao alcancavel
+00:20.243	ID:29	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:20.243	ID:29	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:20.351	ID:25	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:20.351	ID:25	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:20.425	ID:38	[INFO: App       ] base ainda nao alcancavel
+00:20.455	ID:30	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:20.455	ID:30	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:20.581	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:20.620	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:20.699	ID:26	[INFO: App       ] base ainda nao alcancavel
+00:20.867	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:20.878	ID:26	[WARN: RPL       ] found parent: fe80::201:1:1:1, staying in DAG
+00:20.968	ID:6	[INFO: App       ] base ainda nao alcancavel
+00:20.986	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:21.050	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:21.102	ID:13	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:21.102	ID:13	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:21.810	ID:40	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:21.810	ID:40	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:21.843	ID:28	[INFO: App       ] base ainda nao alcancavel
+00:21.853	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:22.089	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:22.240	ID:16	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:22.240	ID:16	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:22.273	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:22.438	ID:19	[WARN: RPL       ] found parent: fe80::201:1:1:1, staying in DAG
+00:22.926	ID:32	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:22.926	ID:32	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:22.999	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:23.171	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:23.173	ID:2	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:23.173	ID:2	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:23.275	ID:3	[INFO: App       ] base ainda nao alcancavel
+00:23.281	ID:12	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:23.281	ID:12	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:23.295	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:23.573	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:23.813	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:23.813	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:24.181	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:24.469	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:24.724	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:24.737	ID:35	[INFO: App       ] base ainda nao alcancavel
+00:25.099	ID:24	[INFO: App       ] base ainda nao alcancavel
+00:25.165	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:25.406	ID:19	[INFO: App       ] base ainda nao alcancavel
+00:25.513	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:25.686	ID:36	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:25.686	ID:36	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:25.762	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:25.848	ID:11	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:25.848	ID:11	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:25.874	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:26.416	ID:9	[INFO: App       ] base ainda nao alcancavel
+00:26.815	ID:3	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:26.815	ID:3	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:27.387	ID:39	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:27.476	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:27.756	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:27.873	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:28.018	ID:14	[WARN: RPL       ] found parent: fe80::201:1:1:1, staying in DAG
+00:29.012	ID:15	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:29.012	ID:15	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:29.302	ID:18	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:29.302	ID:18	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:29.577	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:29.853	ID:22	[INFO: App       ] base ainda nao alcancavel
+00:29.997	ID:35	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:30.075	ID:9	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:30.075	ID:9	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:30.170	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:30.240	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:30.411	ID:33	[INFO: App       ] base ainda nao alcancavel
+00:30.415	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:30.429	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:30.435	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:30.473	ID:6	[INFO: App       ] base ainda nao alcancavel
+00:30.528	ID:39	[INFO: App       ] base ainda nao alcancavel
+00:30.726	ID:38	[INFO: App       ] base ainda nao alcancavel
+00:30.884	ID:14	[INFO: App       ] base ainda nao alcancavel
+00:31.041	ID:29	[INFO: App       ] base ainda nao alcancavel
+00:31.087	ID:21	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:31.087	ID:21	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:31.102	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:32.135	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:32.502	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:32.537	ID:28	[INFO: App       ] base ainda nao alcancavel
+00:32.758	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:32.818	ID:39	[WARN: RPL       ] found parent: fe80::205:5:5:5, staying in DAG
+00:32.939	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:33.089	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:33.237	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:33.777	ID:24	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:34.005	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:34.146	ID:3	[INFO: App       ] base ainda nao alcancavel
+00:34.275	ID:24	[INFO: App       ] base ainda nao alcancavel
+00:34.370	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:34.397	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:34.654	ID:35	[INFO: App       ] base ainda nao alcancavel
+00:35.177	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:35.405	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:35.419	ID:6	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:35.419	ID:6	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:35.423	ID:38	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:35.423	ID:38	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:35.588	ID:7	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:35.588	ID:7	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:35.600	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:35.698	ID:35	[WARN: RPL       ] found parent: fe80::213:13:13:13, staying in DAG
+00:35.904	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:36.277	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:36.327	ID:6	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:36.327	ID:23	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:37.167	ID:3	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:37.167	ID:9	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:37.229	ID:9	[INFO: App       ] base ainda nao alcancavel
+00:37.264	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:37.384	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:37.730	ID:10	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:37.730	ID:10	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:37.928	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:38.616	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:38.663	ID:29	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:38.663	ID:29	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:39.138	ID:22	[INFO: App       ] base ainda nao alcancavel
+00:39.464	ID:22	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:39.464	ID:22	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:39.628	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:39.748	ID:6	[WARN: RPL       ] found parent: fe80::213:13:13:13, staying in DAG
+00:39.757	ID:4	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:39.757	ID:4	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:40.046	ID:6	[INFO: App       ] base ainda nao alcancavel
+00:40.074	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:40.202	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:40.324	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:40.551	ID:27	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:40.551	ID:27	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:40.629	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:40.708	ID:24	[WARN: RPL       ] found parent: fe80::205:5:5:5, staying in DAG
+00:40.836	ID:33	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:40.836	ID:33	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:40.837	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:41.190	ID:38	[INFO: App       ] base ainda nao alcancavel
+00:41.305	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:41.308	ID:3	[WARN: RPL       ] found parent: fe80::205:5:5:5, staying in DAG
+00:41.345	ID:34	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:41.345	ID:34	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:41.406	ID:33	[INFO: App       ] base ainda nao alcancavel
+00:41.622	ID:29	[INFO: App       ] base ainda nao alcancavel
+00:41.694	ID:31	[WARN: RPL       ] dis_input: not in an instance yet, discard
+00:42.228	ID:17	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:42.228	ID:17	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:42.298	ID:9	[WARN: RPL       ] found parent: fe80::205:5:5:5, staying in DAG
+00:42.797	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:43.107	ID:28	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:43.107	ID:28	[INFO: App       ] base ainda nao alcancavel
+00:43.107	ID:31	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:43.190	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:43.208	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:43.221	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:43.501	ID:40	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:43.501	ID:40	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:43.541	ID:11	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:43.541	ID:11	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:43.549	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:43.656	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:43.784	ID:24	[INFO: App       ] base ainda nao alcancavel
+00:43.920	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:43.959	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:44.788	ID:3	[INFO: App       ] base ainda nao alcancavel
+00:44.808	ID:37	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:44.808	ID:37	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:44.842	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:45.087	ID:10	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:45.087	ID:29	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:45.736	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:45.877	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:46.002	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:46.003	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:46.378	ID:28	[WARN: RPL       ] found parent: fe80::223:23:23:23, staying in DAG
+00:46.554	ID:2	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:46.554	ID:2	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:46.568	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:46.708	ID:29	[WARN: RPL       ] found parent: fe80::227:27:27:27, staying in DAG
+00:47.083	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:48.000	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:48.658	ID:31	[WARN: RPL       ] found parent: fe80::223:23:23:23, staying in DAG
+00:48.958	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:49.104	ID:22	[INFO: App       ] base ainda nao alcancavel
+00:49.486	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:49.774	ID:31	[INFO: App       ] base ainda nao alcancavel
+00:50.246	ID:13	[INFO: App       ] base ainda nao alcancavel
+00:50.415	ID:18	[INFO: App       ] base ainda nao alcancavel
+00:50.847	ID:12	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:50.925	ID:16	[INFO: App       ] base ainda nao alcancavel
+00:50.939	ID:33	[INFO: App       ] base ainda nao alcancavel
+00:50.948	ID:38	[INFO: App       ] base ainda nao alcancavel
+00:51.088	ID:23	[WARN: RPL       ] found parent: fe80::201:1:1:1, staying in DAG
+00:51.477	ID:36	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:51.534	ID:32	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:51.534	ID:32	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:51.537	ID:23	[INFO: App       ] base ainda nao alcancavel
+00:51.729	ID:27	[INFO: App       ] base ainda nao alcancavel
+00:51.959	ID:34	[INFO: App       ] base ainda nao alcancavel
+00:52.224	ID:15	[WARN: RPL       ] dis_input: not in an instance yet, discard
+00:52.369	ID:12	[INFO: App       ] base ainda nao alcancavel
+00:52.558	ID:10	[WARN: RPL       ] found parent: fe80::227:27:27:27, staying in DAG
+00:53.417	ID:32	[INFO: App       ] base ainda nao alcancavel
+00:53.591	ID:11	[INFO: App       ] base ainda nao alcancavel
+00:53.607	ID:8	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:53.607	ID:8	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:53.862	ID:25	[INFO: App       ] base ainda nao alcancavel
+00:53.884	ID:30	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:53.884	ID:30	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:53.959	ID:8	[INFO: App       ] base ainda nao alcancavel
+00:54.327	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 140
+00:54.347	ID:37	[INFO: App       ] base ainda nao alcancavel
+00:54.357	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 140
+00:54.387	ID:15	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:54.387	ID:25	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+00:54.695	ID:10	[INFO: App       ] base ainda nao alcancavel
+00:54.808	ID:36	[WARN: RPL       ] found parent: fe80::203:3:3:3, staying in DAG
+00:55.091	ID:7	[INFO: App       ] base ainda nao alcancavel
+00:55.335	ID:30	[INFO: App       ] base ainda nao alcancavel
+00:55.428	ID:38	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:55.428	ID:38	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:55.515	ID:21	[INFO: App       ] base ainda nao alcancavel
+00:55.527	ID:16	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:55.527	ID:16	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:56.230	ID:17	[INFO: App       ] base ainda nao alcancavel
+00:56.568	ID:15	[INFO: App       ] base ainda nao alcancavel
+00:57.083	ID:40	[INFO: App       ] base ainda nao alcancavel
+00:57.266	ID:2	[INFO: App       ] base ainda nao alcancavel
+00:57.411	ID:36	[INFO: App       ] base ainda nao alcancavel
+00:58.138	ID:12	[WARN: RPL       ] found parent: fe80::218:18:18:18, staying in DAG
+00:58.198	ID:4	[INFO: App       ] base ainda nao alcancavel
+00:58.617	ID:20	[INFO: App       ] base ainda nao alcancavel
+00:59.018	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+00:59.018	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+00:59.822	ID:22	[INFO: App       ] base ainda nao alcancavel
+01:00.117	ID:2	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:00.117	ID:27	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:00.268	ID:25	[WARN: RPL       ] found parent: fe80::21d:1d:1d:1d, staying in DAG
+01:00.440	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:00.449	ID:17	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:00.449	ID:17	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:00.537	ID:11	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:00.722	ID:13	[INFO: App       ] base ainda nao alcancavel
+01:00.752	ID:27	[INFO: App       ] base ainda nao alcancavel
+01:01.025	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:01.104	ID:32	[WARN: RPL       ] dis_input: not in an instance yet, discard
+01:01.230	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:01.408	ID:4	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:01.408	ID:4	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:01.532	ID:33	[INFO: App       ] base ainda nao alcancavel
+01:02.425	ID:18	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:02.425	ID:18	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:02.728	ID:27	[WARN: RPL       ] found parent: fe80::21c:1c:1c:1c, staying in DAG
+01:02.923	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:03.110	ID:13	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:03.110	ID:13	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:03.214	ID:11	[INFO: App       ] base ainda nao alcancavel
+01:03.244	ID:12	[INFO: App       ] base ainda nao alcancavel
+01:03.657	ID:32	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:03.727	ID:8	[INFO: App       ] base ainda nao alcancavel
+01:03.731	ID:32	[INFO: App       ] base ainda nao alcancavel
+01:03.804	ID:22	[WARN: RPL       ] dis_input: not in an instance yet, discard
+01:03.995	ID:37	[INFO: App       ] base ainda nao alcancavel
+01:04.141	ID:7	[INFO: App       ] base ainda nao alcancavel
+01:04.313	ID:21	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:04.313	ID:21	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:04.485	ID:25	[INFO: App       ] base ainda nao alcancavel
+01:04.527	ID:33	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:04.677	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 153
+01:04.708	ID:32	[WARN: RPL       ] found parent: fe80::224:24:24:24, staying in DAG
+01:05.178	ID:34	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:05.178	ID:34	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:05.465	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:05.467	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:05.578	ID:15	[WARN: RPL       ] found parent: fe80::209:9:9:9, staying in DAG
+01:06.327	ID:22	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:06.791	ID:15	[INFO: App       ] base ainda nao alcancavel
+01:06.989	ID:17	[INFO: App       ] base ainda nao alcancavel
+01:07.033	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:07.420	ID:2	[INFO: App       ] base ainda nao alcancavel
+01:07.648	ID:2	[WARN: RPL       ] found parent: fe80::21c:1c:1c:1c, staying in DAG
+01:07.796	ID:4	[INFO: App       ] base ainda nao alcancavel
+01:09.131	ID:20	[INFO: App       ] base ainda nao alcancavel
+01:09.282	ID:22	[INFO: App       ] base ainda nao alcancavel
+01:09.417	ID:8	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:10.382	ID:13	[INFO: App       ] base ainda nao alcancavel
+01:11.098	ID:33	[WARN: RPL       ] found parent: fe80::217:17:17:17, staying in DAG
+01:11.116	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:11.136	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:11.697	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 162
+01:11.702	ID:33	[INFO: App       ] base ainda nao alcancavel
+01:11.997	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 164
+01:12.004	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:12.208	ID:11	[WARN: RPL       ] found parent: fe80::218:18:18:18, staying in DAG
+01:12.357	ID:4	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:12.855	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:13.168	ID:22	[WARN: RPL       ] found parent: fe80::218:18:18:18, staying in DAG
+01:13.317	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 254
+01:13.826	ID:11	[INFO: App       ] base ainda nao alcancavel
+01:14.419	ID:8	[INFO: App       ] base ainda nao alcancavel
+01:14.905	ID:7	[INFO: App       ] base ainda nao alcancavel
+01:14.989	ID:37	[INFO: App       ] base ainda nao alcancavel
+01:15.178	ID:8	[WARN: RPL       ] found parent: fe80::224:24:24:24, staying in DAG
+01:15.191	ID:16	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:15.191	ID:16	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:15.348	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:15.872	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:15.989	ID:17	[INFO: App       ] base ainda nao alcancavel
+01:16.064	ID:40	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:16.064	ID:40	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:16.197	ID:13	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:17.354	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:17.708	ID:4	[INFO: App       ] base ainda nao alcancavel
+01:17.908	ID:4	[WARN: RPL       ] found parent: fe80::209:9:9:9, staying in DAG
+01:18.618	ID:20	[INFO: App       ] base ainda nao alcancavel
+01:19.377	ID:19	[WARN: TSCH      ] ! drop dup ll from 0006.0006.0006.0006 seqno 188
+01:19.845	ID:13	[INFO: App       ] base ainda nao alcancavel
+01:20.126	ID:23	[WARN: 6LoWPAN   ] input: empty packet
+01:20.308	ID:13	[WARN: RPL       ] found parent: fe80::202:2:2:2, staying in DAG
+01:21.060	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:21.110	ID:37	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:21.110	ID:37	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:21.510	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:21.787	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:22.617	ID:19	[WARN: TSCH      ] ! drop dup ll from 0023.0023.0023.0023 seqno 67
+01:22.955	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:23.067	ID:7	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:23.817	ID:17	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:23.900	ID:21	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:23.900	ID:21	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:24.447	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 13
+01:24.553	ID:37	[INFO: App       ] base ainda nao alcancavel
+01:24.896	ID:7	[INFO: App       ] base ainda nao alcancavel
+01:25.233	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:25.286	ID:17	[INFO: App       ] base ainda nao alcancavel
+01:26.276	ID:34	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:26.276	ID:34	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:26.389	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:28.088	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:28.655	ID:20	[INFO: App       ] base ainda nao alcancavel
+01:30.617	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:31.152	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:31.722	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:31.918	ID:17	[WARN: RPL       ] found parent: fe80::20b:b:b:b, staying in DAG
+01:31.979	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:32.488	ID:7	[WARN: RPL       ] found parent: fe80::213:13:13:13, staying in DAG
+01:33.660	ID:40	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:33.660	ID:40	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:35.036	ID:37	[INFO: App       ] base ainda nao alcancavel
+01:35.100	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:35.100	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:35.106	ID:17	[INFO: App       ] base ainda nao alcancavel
+01:35.783	ID:7	[INFO: App       ] base ainda nao alcancavel
+01:36.172	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:37.047	ID:37	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:37.329	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:37.515	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:38.168	ID:18	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:38.168	ID:18	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:38.661	ID:30	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:38.661	ID:30	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:38.827	ID:20	[INFO: App       ] base ainda nao alcancavel
+01:39.245	ID:21	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:39.245	ID:21	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:39.714	ID:38	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:39.714	ID:38	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:39.812	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:40.354	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:40.707	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 216
+01:41.278	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:41.618	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:42.269	ID:34	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:42.269	ID:34	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:45.608	ID:37	[INFO: App       ] base ainda nao alcancavel
+01:45.747	ID:34	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:46.226	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:47.397	ID:21	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:47.397	ID:30	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+01:47.398	ID:37	[WARN: RPL       ] found parent: fe80::208:8:8:8, staying in DAG
+01:47.590	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:47.806	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:48.312	ID:20	[INFO: App       ] base ainda nao alcancavel
+01:49.728	ID:16	[INFO: App       ] base ainda nao alcancavel
+01:51.290	ID:38	[INFO: App       ] base ainda nao alcancavel
+01:51.364	ID:16	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:51.364	ID:16	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:51.638	ID:18	[INFO: App       ] base ainda nao alcancavel
+01:51.944	ID:34	[INFO: App       ] base ainda nao alcancavel
+01:52.198	ID:34	[WARN: RPL       ] found parent: fe80::211:11:11:11, staying in DAG
+01:53.038	ID:30	[WARN: RPL       ] found parent: fe80::20d:d:d:d, staying in DAG
+01:55.557	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 241
+01:55.605	ID:21	[INFO: App       ] base ainda nao alcancavel
+01:55.727	ID:18	[WARN: TSCH      ] Cannot compute max payload size: not associated
+01:55.727	ID:18	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+01:56.578	ID:21	[WARN: RPL       ] found parent: fe80::20d:d:d:d, staying in DAG
+01:56.757	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 246
+01:57.780	ID:30	[INFO: App       ] base ainda nao alcancavel
+01:58.504	ID:40	[INFO: App       ] base ainda nao alcancavel
+01:59.211	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:00.068	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+02:00.068	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+02:00.533	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:01.779	ID:38	[INFO: App       ] base ainda nao alcancavel
+02:01.857	ID:40	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+02:02.280	ID:18	[INFO: App       ] base ainda nao alcancavel
+02:02.726	ID:28	[WARN: 6LoWPAN   ] input: empty packet
+02:06.748	ID:40	[WARN: RPL       ] found parent: fe80::207:7:7:7, staying in DAG
+02:07.227	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 9
+02:08.044	ID:38	[WARN: TSCH      ] Cannot compute max payload size: not associated
+02:08.044	ID:38	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+02:09.026	ID:40	[INFO: App       ] base ainda nao alcancavel
+02:10.078	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:10.447	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:11.374	ID:38	[INFO: App       ] base ainda nao alcancavel
+02:12.056	ID:18	[INFO: App       ] base ainda nao alcancavel
+02:15.019	ID:16	[WARN: TSCH      ] Cannot compute max payload size: not associated
+02:15.019	ID:16	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+02:20.394	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:20.597	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:21.792	ID:38	[INFO: App       ] base ainda nao alcancavel
+02:22.180	ID:18	[INFO: App       ] base ainda nao alcancavel
+02:24.896	ID:30	[WARN: 6LoWPAN   ] input: empty packet
+02:26.697	ID:18	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+02:26.871	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+02:26.871	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+02:27.987	ID:3	[WARN: TSCH      ] ! drop dup ll from 0024.0024.0024.0024 seqno 255
+02:28.078	ID:18	[WARN: RPL       ] found parent: fe80::21e:1e:1e:1e, staying in DAG
+02:28.317	ID:3	[WARN: TSCH      ] ! drop dup ll from 0024.0024.0024.0024 seqno 255
+02:30.429	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:30.967	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:32.396	ID:17	[WARN: 6LoWPAN   ] input: empty packet
+02:32.487	ID:38	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+02:32.566	ID:38	[INFO: App       ] base ainda nao alcancavel
+02:32.860	ID:18	[INFO: App       ] base ainda nao alcancavel
+02:33.176	ID:40	[WARN: 6LoWPAN   ] input: empty packet
+02:36.147	ID:24	[WARN: TSCH      ] ! drop dup ll from 000b.000b.000b.000b seqno 134
+02:40.798	ID:38	[WARN: RPL       ] found parent: fe80::207:7:7:7, staying in DAG
+02:40.829	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:41.923	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:43.290	ID:38	[INFO: App       ] base ainda nao alcancavel
+02:44.967	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 75
+02:45.812	ID:20	[WARN: TSCH      ] Cannot compute max payload size: not associated
+02:45.812	ID:20	[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+02:50.847	ID:19	[WARN: TSCH      ] ! drop dup ll from 0007.0007.0007.0007 seqno 56
+02:51.299	ID:20	[INFO: App       ] base ainda nao alcancavel
+02:52.851	ID:16	[INFO: App       ] base ainda nao alcancavel
+02:57.867	ID:16	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+03:00.627	ID:19	[WARN: TSCH      ] ! drop dup ll from 0023.0023.0023.0023 seqno 148
+03:02.138	ID:16	[INFO: App       ] base ainda nao alcancavel
+03:02.260	ID:20	[INFO: App       ] base ainda nao alcancavel
+03:06.868	ID:16	[WARN: RPL       ] found parent: fe80::226:26:26:26, staying in DAG
+03:13.116	ID:20	[INFO: App       ] base ainda nao alcancavel
+03:14.727	ID:20	[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+03:15.957	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 132
+03:18.088	ID:20	[WARN: RPL       ] found parent: fe80::210:10:10:10, staying in DAG
+03:34.467	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 206
+03:44.217	ID:7	[WARN: TSCH      ] ! drop dup ll from 0026.0026.0026.0026 seqno 33
+04:03.326	ID:38	[WARN: 6LoWPAN   ] input: empty packet
+04:54.987	ID:7	[WARN: TSCH      ] ! drop dup ll from 0026.0026.0026.0026 seqno 64
+05:07.257	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 108
+05:12.477	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 118
+06:40.767	ID:19	[WARN: TSCH      ] ! drop dup ll from 0006.0006.0006.0006 seqno 67
+07:04.587	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 53
+07:42.297	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 117
+07:42.807	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 119
+07:42.867	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 107
+08:26.097	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 185
+09:15.477	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 30
+09:34.437	ID:1	[WARN: TSCH      ] ! drop dup ll from 0013.0013.0013.0013 seqno 38
+09:57.657	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 132
+10:06.207	ID:1	[WARN: TSCH      ] ! drop dup ll from 0005.0005.0005.0005 seqno 156
