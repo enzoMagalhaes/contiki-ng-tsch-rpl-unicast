@@ -15,34 +15,34 @@ static struct simple_udp_connection udp_conn;
 static uint32_t total_messages_counter = 0;
 
 /*---------------------------------------------------------------------------*/
-#define MAX_SENDERS 50 // Maximum number of senders to track
+#define MAX_SENDERS 50 // Número maximo de transmissores
 
-// Structure to represent sender address and associated counter
+// struct para a contagem das mensagens
 struct SenderCounter
 {
   uip_ipaddr_t sender_addr;
   int counter;
 };
 
-// Array to store sender counters
+// Array para armazenar as contagens
 struct SenderCounter sender_counters[MAX_SENDERS];
 
-// Function to increment the counter for a specific sender address
+// função que incrementa a contagem de mensagens de um dado transmissor
 int sender_index = 0;
 int increment_sender_counter(const uip_ipaddr_t *sender_addr)
 {
   for (int i = 0; i < MAX_SENDERS; i++)
   {
-    // Compare sender address with the one stored in the array
+    // Compara o endereço do transmissor com o endereço na posição i da array
     if (uip_ipaddr_cmp(sender_addr, &sender_counters[i].sender_addr) == 1)
     {
-      // Address matches, increment the counter and return
+      // incrementa o contador para o endereço e retorna a contagem
       sender_counters[i].counter++;
       return sender_counters[i].counter;
     }
   }
 
-  // If the sender address is not found in the array, add it and set the counter to 1
+  // se o endereço do transmissor não estiver na array, adicione-o 
   uip_ipaddr_copy(&sender_counters[sender_index].sender_addr, sender_addr);
   sender_counters[sender_index].counter = 1;
   sender_index++;
