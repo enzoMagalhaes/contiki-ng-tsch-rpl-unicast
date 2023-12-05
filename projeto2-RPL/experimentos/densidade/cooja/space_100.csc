@@ -17,7 +17,7 @@
     <motetype>
       org.contikios.cooja.contikimote.ContikiMoteType
       <description>server</description>
-      <source>[CONFIG_DIR]/../../src/unicast-server.c</source>
+      <source>[CONFIG_DIR]/../../../src/unicast-server.c</source>
       <commands>$(MAKE) -j$(CPUS) unicast-server.cooja TARGET=cooja</commands>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.Battery</moteinterface>
@@ -49,7 +49,7 @@
     <motetype>
       org.contikios.cooja.contikimote.ContikiMoteType
       <description>client</description>
-      <source>[CONFIG_DIR]/../../src/unicast-client.c</source>
+      <source>[CONFIG_DIR]/../../../src/unicast-client.c</source>
       <commands>$(MAKE) -j$(CPUS) unicast-client.cooja TARGET=cooja</commands>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.Battery</moteinterface>

@@ -17,7 +17,7 @@
     <motetype>
       org.contikios.cooja.contikimote.ContikiMoteType
       <description>server</description>
-      <source>[CONFIG_DIR]/../../src/unicast-server.c</source>
+      <source>[CONFIG_DIR]/../../../src/unicast-server.c</source>
       <commands>$(MAKE) -j$(CPUS) unicast-server.cooja TARGET=cooja</commands>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.Battery</moteinterface>
@@ -38,7 +38,7 @@
       <mote>
         <interface_config>
           org.contikios.cooja.interfaces.Position
-          <pos x="80.57428904182542" y="23.5963259471706" />
+          <pos x="52.384658859898096" y="25.045325629419203" />
         </interface_config>
         <interface_config>
           org.contikios.cooja.contikimote.interfaces.ContikiMoteID
@@ -49,7 +49,7 @@
     <motetype>
       org.contikios.cooja.contikimote.ContikiMoteType
       <description>client</description>
-      <source>[CONFIG_DIR]/../../src/unicast-client.c</source>
+      <source>[CONFIG_DIR]/../../../src/unicast-client.c</source>
       <commands>$(MAKE) -j$(CPUS) unicast-client.cooja TARGET=cooja</commands>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.Battery</moteinterface>
@@ -470,7 +470,7 @@
       <skin>org.contikios.cooja.plugins.skins.MoteTypeVisualizerSkin</skin>
       <viewport>7.591444038779822 0.0 0.0 7.591444038779822 312.03676579915214 207.942049422852</viewport>
     </plugin_config>
-    <bounds x="1" y="1" height="764" width="1278" z="1" />
+    <bounds x="1" y="1" height="764" width="1278" />
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.LogListener
@@ -479,7 +479,7 @@
       <formatted_time />
       <coloring />
     </plugin_config>
-    <bounds x="1298" y="160" height="565" width="992" />
+    <bounds x="1298" y="160" height="565" width="992" z="1" />
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.TimeLine
